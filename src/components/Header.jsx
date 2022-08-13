@@ -5,9 +5,10 @@ export const Header = () => {
   return (
     <header>
       <div className="img-title-container">
-        <div className="imageHeader">
-          <img src={imgCouple} alt="foto pareja" />
-        </div>
+        <div
+          className="imageHeader"
+          style={{ backgroundImage: `url(${imgCouple})` }}
+        ></div>
         <div className="titleHeader">
           <h3>Nuestro Casamiento</h3>
           <hr />
