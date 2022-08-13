@@ -1,5 +1,5 @@
 import "./header.scss";
-import imgCouple from "../assets/img/couple2.jpg";
+import imgCouple from "../assets/img/couple3.jpg";
 
 export const Header = () => {
   return (
