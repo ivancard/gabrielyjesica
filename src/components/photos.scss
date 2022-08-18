@@ -1,9 +1,44 @@
 .photos-container {
   height: 600px;
-  background-color: cadetblue;
+  background-color: antiquewhite;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 5rem;
+  .photos-root {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    .photo {
+      width: 60%;
+    }
+    .photo-1 {
+      position: absolute;
+      z-index: 4;
+      top: -10px;
+      left: 0px;
+      transform: rotate(10deg);
+      width: 70%;
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    }
+    .photo-2 {
+      position: absolute;
+      z-index: 6;
+      bottom: 10px;
+      right: 0px;
+      width: 70%;
+      transform: rotate(-5deg);
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    }
+    .photo-3 {
+      position: absolute;
+      z-index: 5;
+      top: 130px;
+      left: 50px;
+      width: 65%;
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    }
+  }
 }
