@@ -10,7 +10,7 @@ export const Header = () => {
           style={{ backgroundImage: `url(${imgCouple})` }}
         ></div>
         <div className="titleHeader">
-          <h3>Nuestro Casamiento</h3>
+          <h3>Nuestra Boda</h3>
           <hr />
           <h1>Gabriel & Jesica</h1>
         </div>

@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 .footer-image {
   height: 400px;
   width: 100%;
@@ -5,6 +7,7 @@
   background-repeat: no-repeat;
   position: relative;
   h2 {
+    font-family: $font-title;
     position: absolute;
     color: white;
     font-size: 6rem;

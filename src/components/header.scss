@@ -1,3 +1,4 @@
+@import "../variables.scss";
 .img-title-container {
   background-color: rgb(230, 210, 184);
   width: 100%;
@@ -7,6 +8,7 @@
   align-items: center;
   padding-top: 50px;
   .titleHeader {
+    font-family: $font-title;
     background-color: rgb(149, 123, 104);
     width: 65%;
     height: 80px;
