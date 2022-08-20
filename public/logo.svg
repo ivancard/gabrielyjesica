@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-96 -144)">
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(96 144)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="15.5" fill="none"/>
+    </g>
+    <text id="G" transform="translate(100 165)" fill="#707070" font-size="17" font-family="GaramondPremrPro-MedCapt, Garamond Premier Pro Caption"><tspan x="0" y="0">G</tspan></text>
+    <text id="J" transform="translate(117 164)" fill="#707070" font-size="15" font-family="GaramondPremrPro-MedCapt, Garamond Premier Pro Caption"><tspan x="0" y="0">J</tspan></text>
+    <path id="Trazado_1" data-name="Trazado 1" d="M112,149.18V171.4" transform="translate(1 -0.68)" fill="none" stroke="#707070" stroke-width="0.5"/>
+  </g>
+</svg>

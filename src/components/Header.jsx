@@ -12,7 +12,9 @@ export const Header = () => {
         <div className="titleHeader">
           <h3>Nuestra Boda</h3>
           <hr />
-          <h1>Gabriel & Jesica</h1>
+          <h1 className="titulo1">1- Gabriel & Jesica</h1>
+          <h1 className="titulo2">2- Gabriel & Jesica</h1>
+          <h1 className="titulo3">3- Gabriel & Jesica</h1>
         </div>
       </div>
     </header>
