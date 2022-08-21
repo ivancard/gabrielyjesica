@@ -1,3 +1,4 @@
+import { Confirmation } from "./components/Confirmation";
 import { Countdown } from "./components/Countdown";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -12,6 +13,7 @@ function Invitation() {
       <Location />
       <Photos />
       <Countdown />
+      <Confirmation />
       <Footer />
     </>
   );

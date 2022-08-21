@@ -17,7 +17,7 @@ export const Location = () => {
           marginTop: "20px",
           border: 0,
           width: "90%",
-          height: "150px",
+          height: "200px",
           borderRadius: "10px",
         }}
         allowFullScreen=""
