@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./countdown.scss";
+import watercolorOv from "../assets/img/texture3.jpg";
 
 export const Countdown = () => {
   const deadline = "September, 09, 2022";
@@ -30,7 +31,10 @@ export const Countdown = () => {
   }, [deadline]);
 
   return (
-    <div className="countdown-container">
+    <div
+      className="countdown-container"
+      style={{ backgroundImage: `url(${watercolorOv})` }}
+    >
       <div className="countdown-placeholder">
         <div className="border">
           <h2>¿Cuanto Falta?</h2>

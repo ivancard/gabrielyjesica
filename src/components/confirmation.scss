@@ -1,7 +1,8 @@
 @import "../variables.scss";
 .confirmation-container {
   height: 200px;
-  background-color: bisque;
+  background-color: lighten($color: $champagne-1, $amount: 5%);
+  background-blend-mode: multiply;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -40,15 +41,12 @@
         border: none;
         border-radius: 5px;
         padding: 5px 20px;
-        background-color: rgb(146, 127, 82);
+        background-color: $champagne-3;
         cursor: pointer;
         transition: 0.3s;
         color: white;
         font-family: $font-text;
         font-weight: normal;
-        &:hover {
-          background-color: #fff;
-        }
       }
     }
   }

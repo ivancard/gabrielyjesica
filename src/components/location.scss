@@ -8,9 +8,9 @@
   width: 100%;
   height: auto;
   padding-bottom: 40px;
-  background-color: rgb(122, 106, 90);
+  background-color: $champagne-2;
   color: white;
-
+  background-blend-mode: multiply;
   h2 {
     font-size: 3.5rem;
     margin-bottom: 1rem;

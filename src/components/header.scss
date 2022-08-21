@@ -1,6 +1,7 @@
 @import "../variables.scss";
 .img-title-container {
-  background-color: rgb(230, 210, 184);
+  background-color: lighten($color: $champagne-1, $amount: 5%);
+  background-blend-mode: multiply;
   width: 100%;
   height: 550px;
   display: flex;
@@ -8,7 +9,8 @@
   align-items: center;
   padding-top: 50px;
   .titleHeader {
-    background-color: rgb(149, 123, 104);
+    background-color: $champagne-3;
+    background-blend-mode: multiply;
     width: 65%;
     height: 80px;
     height: 100px;
@@ -41,7 +43,7 @@
     width: 75%;
     height: 400px;
     overflow: hidden;
-    border-radius: 100px 100px 4px 4px;
+    border-radius: 100px 100px 10px 10px;
     display: flex;
     justify-content: center;
     background-size: cover;

@@ -1,7 +1,8 @@
 @import "../variables.scss";
 
 .countdown-container {
-  background-color: rgb(210, 200, 171);
+  background-color: lighten($color: $champagne-3, $amount: 5%);
+  background-blend-mode: multiply;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@
   .countdown-placeholder {
     width: 80%;
     height: 70%;
-    background-color: $light;
+    background-color: white;
 
     .border {
       border: 2px solid #46434081;

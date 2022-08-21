@@ -1,6 +1,8 @@
+@import "../variables.scss";
 .photos-container {
   height: 600px;
-  background-color: rgb(250, 230, 211);
+  background-color: lighten($color: $champagne-4, $amount: 10%);
+  background-blend-mode: multiply;
   color: white;
   display: flex;
   justify-content: center;

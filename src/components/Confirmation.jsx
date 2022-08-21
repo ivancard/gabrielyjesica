@@ -1,7 +1,12 @@
 import "./confirmation.scss";
+import watercolorOv from "../assets/img/watercolor.jpg";
+
 export const Confirmation = () => {
   return (
-    <section className="confirmation-container">
+    <section
+      className="confirmation-container"
+      style={{ backgroundImage: `url(${watercolorOv})` }}
+    >
       <h2>Confirmar asistencia</h2>
       <svg
         xmlns="http://www.w3.org/2000/svg"

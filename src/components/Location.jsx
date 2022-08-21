@@ -1,8 +1,11 @@
 import "../components/location.scss";
-
+import texture from "../assets/img/texture3.jpg";
 export const Location = () => {
   return (
-    <section className="location-date-container">
+    <section
+      className="location-date-container"
+      style={{ backgroundImage: `url(${texture})` }}
+    >
       <h2>Donde y Cuando</h2>
       <p>9 de Setptiembre a las 19:00hs</p>
       <p>En Bucarest 557 - Villa Centenario</p>
