@@ -11,7 +11,7 @@
     background-color: rgb(149, 123, 104);
     width: 65%;
     height: 80px;
-    height: auto;
+    height: 100px;
     border-radius: 3px;
     margin-top: -20px;
     display: flex;
@@ -26,18 +26,12 @@
       width: 25px;
       transform: scaleY(0.4);
     }
-    .titulo1 {
-      font-size: 2.2rem;
+    h1 {
+      font-size: 2.7rem;
       font-family: $font-title;
+      font-weight: 200;
     }
-    .titulo2 {
-      font-size: 2.2rem;
-      font-family: "Parisienne", cursive;
-    }
-    .titulo3 {
-      font-size: 2.2rem;
-      font-family: "Cormorant Garamond", serif;
-    }
+
     h3 {
       font-family: $font-text;
     }
