@@ -1,7 +1,55 @@
+@import "../variables.scss";
 .confirmation-container {
-  height: 700px;
+  height: 200px;
   background-color: bisque;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: $font-title;
+    font-size: 3rem;
+    padding-bottom: 5px;
+  }
+  svg {
+    margin-bottom: 30px;
+  }
   .form-container {
-    height: 100%;
+    width: 60%;
+    form {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      input[type="text"] {
+        outline: none;
+        padding: 5px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-family: $font-text;
+        font-weight: bold;
+        color: $dark;
+        width: 100%;
+      }
+      input[type="text"]:focus {
+        outline: none;
+      }
+      input[type="submit"] {
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 20px;
+        background-color: rgb(146, 127, 82);
+        cursor: pointer;
+        transition: 0.3s;
+        color: white;
+        font-family: $font-text;
+        font-weight: normal;
+        &:hover {
+          background-color: #fff;
+        }
+      }
+    }
   }
 }
