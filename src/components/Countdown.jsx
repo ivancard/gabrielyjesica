@@ -37,7 +37,7 @@ export const Countdown = () => {
     >
       <div className="countdown-placeholder">
         <div className="border">
-          <h2>¿Cuanto Falta?</h2>
+          <h2>¿Cuanto falta?</h2>
           <div className="countdown-cifras">
             <div className="item item-dia">
               <p className="digit">{leading0(days)}</p>

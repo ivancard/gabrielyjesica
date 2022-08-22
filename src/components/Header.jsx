@@ -20,7 +20,9 @@ export const Header = () => {
         >
           <h3>Nuestra Boda</h3>
           <hr />
-          <h1 className="titulo1">Gabriel & Jesica</h1>
+          <h1 className="titulo1">
+            <span className="gabriel">Gabriel</span> & Jesica
+          </h1>
         </div>
       </div>
     </header>
