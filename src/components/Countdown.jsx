@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
-import "./countdown.scss";
-import watercolorOv from "../assets/img/texture3.jpg";
+import { useEffect, useState } from 'react';
+import './countdown.scss';
+import watercolorOv from '../assets/img/texture3.jpg';
 
 export const Countdown = () => {
-  const deadline = "September, 09, 2022";
+  const deadline = 'September, 10, 2022';
 
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
 
   const leading0 = (num) => {
-    return num < 10 ? "0" + num : num;
+    return num < 10 ? '0' + num : num;
   };
 
   const getTimeUntil = (deadline) => {
@@ -32,38 +32,38 @@ export const Countdown = () => {
 
   return (
     <div
-      className="countdown-container"
+      className='countdown-container'
       style={{ backgroundImage: `url(${watercolorOv})` }}
     >
-      <div className="countdown-placeholder">
-        <div className="border">
+      <div className='countdown-placeholder'>
+        <div className='border'>
           <h2>¿Cuanto falta?</h2>
-          <div className="countdown-cifras">
-            <div className="item item-dia">
-              <p className="digit">{leading0(days)}</p>
-              <p className="title-day">DIAS</p>
+          <div className='countdown-cifras'>
+            <div className='item item-dia'>
+              <p className='digit'>{leading0(days)}</p>
+              <p className='title-day'>DIAS</p>
             </div>
             <svg
-              version="1.1"
-              id="Capa_1"
-              className="linea"
-              x="0px"
-              y="0px"
-              viewBox="0 0 50 50"
+              version='1.1'
+              id='Capa_1'
+              className='linea'
+              x='0px'
+              y='0px'
+              viewBox='0 0 50 50'
               // style="enable-background:new 0 0 50 50;"
             >
               <line
-                className="st0"
-                x1="23.65"
-                y1="0.77"
-                x2="23.65"
-                y2="48.51"
+                className='st0'
+                x1='23.65'
+                y1='0.77'
+                x2='23.65'
+                y2='48.51'
               />
             </svg>
 
-            <div className="item item-hora">
-              <p className="digit">{leading0(hours)}</p>
-              <p className="title-horas">HORAS</p>
+            <div className='item item-hora'>
+              <p className='digit'>{leading0(hours)}</p>
+              <p className='title-horas'>HORAS</p>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import { Location } from './components/Location';
 import { Photos } from './components/Photos';
 import { Overlay } from './components/Overlay';
 import './invitation.css';
+import { FestLocation } from './components/FestLocation';
 
 function Invitation() {
   return (
@@ -14,7 +15,6 @@ function Invitation() {
       <Header />
       <Location />
       <Photos />
-      <Countdown />
       <Countdown />
       <Confirmation />
       <Footer />
