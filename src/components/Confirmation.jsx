@@ -31,7 +31,7 @@ export const Confirmation = () => {
             type="text"
             name="entry.1995556633"
             id="name"
-            placeholder="Tu nombre"
+            placeholder="Igresá tu nombre y apellido"
             required
             autoComplete="off"
           />
